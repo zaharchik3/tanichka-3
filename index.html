@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>meow</title>
+</head>
+
+<body>
+  <div class="container1">
+    <p class="title-1">таничка, ты будиш маей venom?</p>
+    <div class="buttons">
+      <button class="buttons__yes" onclick="onClickButtonYes(document.querySelector('.container1'), document.querySelector('.container2'))">доо</button>
+      <button class="buttons__no" onclick="onClickButtonNo(document.querySelector('.buttons__yes'), this, document.querySelector('.buttons'))">ні</button>
+    </div>
+    <img class="image-cats" src="https://i.pinimg.com/originals/7a/51/a2/7a51a247b561aa70e9c0ef0fd141c1c0.gif"
+      alt="я джифка">
+  </div>
+  <div class="container2">
+    <div class="title-1">урооо я знал што ты сагласишся!!!!</div>
+    <img class="image-cats" src="https://media1.tenor.com/m/C_2ikwupY4cAAAAC/goma-heart-goma-love.gif"
+      alt="">
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
